@@ -34,7 +34,7 @@ PluginComponent {
     }
 
     function launch(serial) {
-        const args = ["scrcpy", "-s", serial]
+        const args = ["scrcpy", "--window-borderless", "-s", serial]
         if (screenOff) args.push("--turn-screen-off")
         if (stayAwake) args.push("--stay-awake")
         if (alwaysOnTop) args.push("--always-on-top")
