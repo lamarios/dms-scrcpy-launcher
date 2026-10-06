@@ -1,0 +1,11 @@
+{
+  "id": "scrcpyLauncher",
+  "name": "Scrcpy Launcher",
+  "description": "Quick access to scrcpy: pick a device, toggle options, launch",
+  "version": "0.1.0",
+  "author": "Paul",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "component": "./ScrcpyLauncher.qml",
+  "icon": "smartphone"
+}
